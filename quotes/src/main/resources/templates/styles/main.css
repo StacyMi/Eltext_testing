@@ -1,0 +1,94 @@
+/*
+* Default button
+*/
+.btn-default {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: none !important;
+}
+
+/*
+ * Base structure
+ */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /*background: url(../img/cover.jpg) no-repeat center center fixed;*/
+    background: url(https://image.ibb.co/mDh5K9/cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*
+ * Size button
+ */
+.cover .btn-notify {
+    padding: 10px 60px;
+    border-radius: 40px;
+}
+
+/*
+* Indention h1
+*/
+.cover-heading {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+/*
+ * Size h1
+ */
+@media (min-width: 768px) {
+    .cover-heading {
+        font-size: 3.4rem;
+        letter-spacing: 15px;
+    }
+}
+
+/*
+ * Center text quotes
+ */
+.cover-copy {
+    font-family: Comic Sans MS, serif;
+    font-weight: 100;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+}
+
+/*
+ * Fix center
+ */
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: rgba(48, 53, 70, 0.5);
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+}
+
+@media (min-width: 768px) {
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+}
+
+/*
+* Counter %
+*/
+.counter {
+    margin: 0 auto 2rem;
+}
